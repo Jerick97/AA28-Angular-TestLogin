@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent Se espera hacer match con el snapshot 1`] = `
+<div
+  id="root3"
+>
+  <div
+    class="mx-auto mt-6 container"
+  >
+    <span
+      class="text-center font-bold text-xl"
+    >
+      AppLoginTest app is running!
+    </span>
+    <form
+      autocomplete="off"
+      class="container w-full max-w-xl p-8 mt-6 mx-auto space-y-6 rounded-md shadow bg-gray-900 ng-untouched ng-pristine ng-valid ng-invalid"
+      novalidate=""
+    >
+      <h2
+        class="w-full text-3xl text-white font-bold leading-tight"
+      >
+        Login
+      </h2>
+      <div>
+        <label
+          class="block mb-1 ml-1 text-white"
+          for="username"
+        >
+          Username
+        </label>
+        <input
+          class="block w-full text-white p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-violet-400 bg-gray-800 ng-untouched ng-pristine ng-invalid"
+          formcontrolname="username"
+          id="username"
+          placeholder="Username"
+          type="text"
+        />
+        <div>
+          
+          
+          
+          
+        </div>
+      </div>
+      <div>
+        <label
+          class="block mb-1 ml-1 text-white"
+          for="password"
+        >
+          Password
+        </label>
+        <input
+          class="block w-full text-white p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-violet-400 bg-gray-800 ng-untouched ng-pristine ng-invalid"
+          formcontrolname="password"
+          id="password"
+          placeholder="Contraseña"
+          type="password"
+        />
+        <div>
+          
+          
+          
+        </div>
+      </div>
+      <div>
+        <button
+          class="btn-enviar w-full px-4 py-2 font-bold rounded shadow focus:outline-none focus:ring hover:ring focus:ring-opacity-50 bg-violet-400 focus:ring-violet-400 hover:ring-violet-400 text-gray-900"
+          disabled=""
+          type="submit"
+        >
+          Confirmar
+        </button>
+      </div>
+      
+      <div
+        class="text-center"
+      >
+        <p
+          class="block mb-1 ml-1 text-white font-bold p-4"
+        >
+          Form Invalid - 
+          <span
+            class="rounded-full text-white px-3 py-1 bg-green-500"
+          >
+            true
+          </span>
+        </p>
+        <p
+          class="block mb-1 ml-1 text-white font-bold p-4"
+        >
+          Form Valid - 
+          <span
+            class="rounded-full text-white px-3 py-1 bg-red-500"
+          >
+            false
+          </span>
+        </p>
+      </div>
+      <div
+        class="bg-black p-4 text-1xl text-yellow-400 mt-4"
+      >
+        <p>
+          Username : 
+        </p>
+        <p>
+          Password : 
+        </p>
+      </div>
+    </form>
+  </div>
+  <router-outlet />
+  
+</div>
+`;
